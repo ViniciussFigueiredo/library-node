@@ -18,4 +18,5 @@ Como este projeto utiliza apenas módulos nativos do Node.js (`fs`), a execuçã
 2. **Acesse a pasta**: `cd nome-do-projeto`
 3. **Execute o script**: Passe o caminho de um arquivo `.txt` como argumento no terminal:
    ```bash
+   
    node src/index.js ./arquivos/texto-aprendizado.txt
