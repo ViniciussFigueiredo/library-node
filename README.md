@@ -1,12 +1,8 @@
 <!--- # "Can be a image or a gift from the project pages" -->
 
-<p align="center">
-  <img src="../.github/example.png" alt="Project Name">
-</p>
-
 # Projeto de estudos em Node
 
-Description about the project...
+Este projeto é uma ferramenta de linha de comando desenvolvida em Node.js para processar arquivos de texto, separar parágrafos e contabilizar a frequência de palavras, ignorando pontuações e caracteres especiais.
 
 ## Tech Stack
 
@@ -16,19 +12,10 @@ Description about the project...
 
 ## Getting Started
 
-1. **Install Dependencies**: `npm install or yarn`
-2. **Create containers**: `docker-compose up -d`
-3. **Environment variables**: Copy `.env.example` to a new `.env.local`
-4. **Database Setup**: `npx prisma migrate dev --name init`
-5. **Start Developing**: `npm run start:dev (api) & npm run dev (frontend)`
+Como este projeto utiliza apenas módulos nativos do Node.js (`fs`), a execução é bem direta
 
-## Contribute
-
-1. **Clone project**: `git clone https://github.com/Fernanda-Kipper/Readme-Templates.git`
-2. **Create feature/branch**: `git checkout -b feature/NAME`
-
-## License
-
-This software is available under the following licenses:
-
-- [MIT](https://rem.mit-license.org)
+1. **Clone o projeto**: `git clone https://github.com/ViniciussFigueiredo/library-node`
+2. **Acesse a pasta**: `cd nome-do-projeto`
+3. **Execute o script**: Passe o caminho de um arquivo `.txt` como argumento no terminal:
+   ```bash
+   node src/index.js ./arquivos/texto-aprendizado.txt
